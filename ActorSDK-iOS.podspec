@@ -36,7 +36,7 @@ Pod::Spec.new do |s|
 
     
     # Calls
-    s.dependency 'libjingle_peerconnection'
+    #s.dependency 'libjingle_peerconnection'
 
   s.preserve_paths = 'Frameworks'
   s.vendored_framework = 'Frameworks/ActorSDK.framework'

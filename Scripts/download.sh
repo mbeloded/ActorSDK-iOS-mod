@@ -7,7 +7,7 @@ set -ev
 rm -fr Frameworks/ActorSDK.framework
 
 echo "fetching ActorSDK.framework"
-curl -OL https://dl.dropboxusercontent.com/u/40666485/ActorSDK.zip
+curl -OL https://github.com/mbeloded/actorSDkArchiveMod/blob/master/ActorSDK.zip
 
 #echo "${sha1_checksum}  ActorSDK.zip" | shasum -c
 
